@@ -1,0 +1,62 @@
+{
+  "charts": [
+    {
+      "name": "Combo Chart",
+      "chartType": "ComboChart",
+      "data": [
+        [
+          "Month",
+          "Bolivia",
+          "Ecuador",
+          "Madagascar",
+          "Papua New Guinea",
+          "Rwanda",
+          "Average"
+        ],
+        ["2004/05", 165, 938, 522, 998, 450, 614.6],
+        ["2005/06", 135, 1120, 599, 1268, 288, 682],
+        ["2006/07", 157, 1167, 587, 807, 397, 623],
+        ["2007/08", 139, 1110, 615, 968, 215, 609.4],
+        ["2008/09", 136, 691, 629, 1026, 366, 569.6]
+      ],
+      "options": {
+        "title": "Monthly Coffee Production by Country",
+        "vAxis": { "title": "Cups" },
+        "hAxis": { "title": "Month" },
+        "seriesType": "bars",
+        "series": { "5": { "type": "line" } }
+      }
+    },
+    {
+      "name": "Pie",
+      "chartType": "PieChart",
+      "data": [
+        ["Task", "Hours per Day"],
+        ["Code", 11],
+        ["Eat", 5],
+        ["Tweet", 2],
+        ["Watch TV", 3],
+        ["Sleep", 4]
+      ],
+      "options": {
+        "title": "Pie Chart displaying daily activities",
+        "is3D": true
+      }
+    },
+    {
+      "name": "Scatter Chart",
+      "chartType": "ScatterChart",
+      "data": [
+        ["Task", "Hours per Day"],
+        ["Code", 7],
+        ["Write", 11],
+        ["Sleep", 2],
+        ["Read", 5],
+        ["Watch TV", 2]
+      ],
+      "options": {
+        "title": "Scattered Chart displaying daily task"
+      }
+    }
+  ]
+}
